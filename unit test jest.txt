@@ -1,0 +1,17 @@
+//ts
+npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom ts-node
+
+
+//js
+npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+npm install --save-dev jest @types/jest @testing-library/react
+npm run dev -- -u
+
+
+//ts
+npm i ts-node
+jest.config.ts
+jest.setup.ts
+//package.json
+    "test": "jest",
+    "test:watch": "jest --watch"
